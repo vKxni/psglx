@@ -1,0 +1,36 @@
+Don't worry about what anybody else is going to do. The best way to predict the future is to invent it.
+Premature optimization is the root of all evil (or at least most of it) in programming.
+Lisp has jokingly been called "the most intelligent way to misuse a computer". 
+I think that description is a great compliment because it transmits the full flavor of liberation: it has assisted a number of our most gifted fellow humans in thinking previously impossible thoughts.
+Keep away from people who try to belittle your ambitions. 
+Small people always do that, but the really great make you feel that you, too, can become great.
+What Paul does, and does very well, is to take ideas and concepts that are beautiful in the abstract, and brings them down to a real world level. That's a rare talent to find in writing these days.
+Since programmers create programs out of nothing, imagination is our only limitation. 
+Thus, in the world of programming, the hero is the one who has great vision. Paul Graham is one of our contemporary heroes. He has the ability to embrace the vision, and to express it plainly. His works are my favorites, especially the ones describing language design. He explains secrets of programming, languages, and human nature that can only be learned from the hacker experience. This book shows you his great vision, and tells you the truth about the nature of hacking.
+To follow the path: look to the master, follow the master, walk with the master, see through the master, become the master.
+No problem should ever have to be solved twice.
+Attitude is no substitute for competence.
+It is said that the real winner is the one who lives in today but able to see tomorrow.
+Fools ignore complexity. Pragmatists suffer it. Some can avoid it. Geniuses remove it.
+A year spent in artificial intelligence is enough to make one believe in God.
+Dealing with failure is easy: Work hard to improve. 
+Success is also easy to handle: You've solved the wrong problem. Work hard to improve.
+Within a computer natural language is unnatural.
+You think you know when you learn, are more sure when you can write, even more when you can teach, but certain when you can program.
+Adapting old programs to fit new machines usually means adapting new machines to behave like old ones.
+A little learning is a dangerous thing 
+Computer science education cannot make anybody an expert programmer any more than studying brushes and pigment can make somebody an expert painter.
+Einstein argued that there must be simplified explanations of nature, because God is not capricious or arbitrary.
+Students should be evaluated on how well they can achieve the goals they strived to achieve within a realistic context. 
+Students need to learn to do things, not know things.
+We remember what we learn when we care about performing better and when we believe that what we have been asked to do is representative of reality.
+There really is no learning without doing.
+We really have to get over the idea that some stuff is just worth knowing even if you never do anything with it. Human memories happily erase stuff that has no purpose, so why try to fill up children's heads with such stuff?
+La tactique, c'est ce que vous faites quand il y a quelque chose à faire; la stratégie, c'est ce que vous faites quand il n'y a rien à faire.
+The only problems we can really solve in a satisfactory manner are those that finally admit a nicely factored solution.
+The best way to learn to live with our limitations is to know them.
+Ce n'est que par les relations qu'on entretient entre nos différentes connaissances qu'elles nous restent accessibles.
+We now come to the decisive step of mathematical abstraction: we forget about what the symbols stand for. ...[The mathematician] need not be idle; there are many operations which he may carry out with these symbols, without ever having to look at the things they stand for.
+The only thing we have to learn is to know what we have to learn.
+You can't teach a student to program. You can only teach him to think.
+
