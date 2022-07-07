@@ -25,6 +25,8 @@ This will start the bot, if you make any additional changes you you have to stop
 ```
 /ping
 /random 
+/intro
+/say
 /goodmorning
 /goodnight
 ```
