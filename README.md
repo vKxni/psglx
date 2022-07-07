@@ -1,5 +1,5 @@
 # Psglx :: Nostrum 
-A random utility chat bot for Discord, made for private and fun usage.
+A random AI for your server, made for private and fun usage.
 
 ## 👩🏻‍💼 Getting started 
 
