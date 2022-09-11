@@ -3,8 +3,7 @@ defmodule Psglx.Commands.Ping do
 
   @behaviour Psglx.Command
 
-  alias Nostrum.Api
-  alias Psglx.Command
+  alias Psglx.{Command, Utils.InteractionResponse}
 
   @impl Command
   def spec(name) do
@@ -16,9 +15,6 @@ defmodule Psglx.Commands.Ping do
 
   @impl Command
   def handle_interaction(interaction) do
-    Api.create_interaction_response(interaction, %{
-      type: 4,
-      data: %{content: "Pong!"}
-    })
+    InteractionResponse.send_ephemeral(interaction, "Pong!")
   end
 end

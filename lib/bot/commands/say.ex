@@ -4,7 +4,7 @@ defmodule Psglx.Commands.Say do
   @behaviour Psglx.Command
 
   alias Nostrum.Api
-  alias Psglx.Command
+  alias Psglx.{Command, Utils.InteractionResponse}
 
   use Bitwise
 
@@ -29,12 +29,7 @@ defmodule Psglx.Commands.Say do
     %{value: name} = Command.get_option(interaction, "string")
 
     # Here we reply to the interaction to avoid the "did not respond" error
-    # TODO: Make it ephemeral
-    Api.create_interaction_response(interaction, %{
-      type: 4,
-      data: %{content: "Done!"},
-      flags: 1 <<< 6
-    })
+    InteractionResponse.send_ephemeral(interaction, "Ok!")
 
     # Send the message as a direct message into the channel (no reply to the interaction)
     Api.create_message(interaction.channel_id, %{
