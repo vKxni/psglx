@@ -5,7 +5,7 @@ defmodule Psglx.MixProject do
     [
       app: :psglx,
       version: "1.1.0",
-      description: "Functional bot that handles fun and activities within your Discord server",
+      description: "A personal Discord integration to handle some utility stuff, lol.",
       elixir: "~> 1.13",
       start_permanent: Mix.env() == :prod,
       deps: deps()
@@ -24,7 +24,10 @@ defmodule Psglx.MixProject do
   defp deps do
     [
       {:dotenv_parser, "~> 2.0"},
-      {:nostrum, "~> 0.6.0"}
+      {:nostrum, "~> 0.6.0"},
+      {:httpoison, "~> 1.8"},
+      {:poison, "~> 5.0"},
+      {:jason, "~> 1.3"}
     ]
   end
 end
