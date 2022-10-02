@@ -1,5 +1,5 @@
 # Psglx :: Nostrum 
-A random AI for your server, made for private and fun usage.
+A random Discord client for your server, made for private and fun usage.
 
 ## 👩🏻‍💼 Getting started 
 
@@ -9,7 +9,7 @@ A random AI for your server, made for private and fun usage.
 
 ## 👩🏻‍🏫 Information
 > Versions
-* You **need** OTP Version 23 or higher. Latest Version is fine too, just not below 23/22.
+* You **need** the OTP Version of 23 or higher. Latest Version is fine too, just nothing below 23/22.
 
 > Deployment
 * You do not need to push the commands, it is automatically done once you run the bot. 
@@ -23,7 +23,7 @@ This will start the bot, if you make any additional changes you you have to stop
 
 > Bot commands
 ```
-/ping
+/ping [E]
 /random 
 /intro
 /say
@@ -32,7 +32,7 @@ This will start the bot, if you make any additional changes you you have to stop
 ```
 Ping returns a simple "Ping Pong" while random returns a random quote from the `random.txt` file. You can modify that if you want like add more quotes/messages/facts ...
 
-## 🧏🏻 What I have used
+## 🧏🏻 Technologies used
 
  - [Elixir Programming Language](https://elixir-lang.org) 
 
