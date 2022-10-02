@@ -1,6 +1,6 @@
 defmodule Psglx.Utils.InteractionResponse do
   @moduledoc """
-  Utils for ephemeral responses
+  Util functions for (ephemeral) interaction responses
   """
 
   import Bitwise
@@ -17,13 +17,16 @@ defmodule Psglx.Utils.InteractionResponse do
       type: 4,
       data: %{
         content: content,
-        flags: 1 <<< 6
+        flags: 1 <<< 6 # ephemeral
       }
     }
 
     Api.create_interaction_response(interaction, response)
   end
 
+  @doc """
+  This is a simple function for sending interaction responses
+  """
   @spec send_response(Interaction.t(), binary()) :: {:ok}
   def send_response(%Interaction{} = interaction, content) do
     Logger.debug("Sending response, waiting for success ...")
