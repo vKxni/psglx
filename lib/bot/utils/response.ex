@@ -17,7 +17,8 @@ defmodule Psglx.Utils.InteractionResponse do
       type: 4,
       data: %{
         content: content,
-        flags: 1 <<< 6 # ephemeral
+        # ephemeral
+        flags: 1 <<< 6
       }
     }
 
